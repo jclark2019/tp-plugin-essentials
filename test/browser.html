@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>tweakpane-plugin-essentials</title>
 	<style>
 		body {
 			margin: 0;
+			background-color: #242632
 		}
 		.wrapper {
 			align-items: start;
-			background-color: #f1f2f3;
+			background-color: #323440;
 			box-sizing: border-box;
 			display: grid;
+			border-radius: 15px;
 			gap: 32px;
 			grid-template-columns: repeat(auto-fit, 256px);
 			justify-content: center;
@@ -27,8 +29,8 @@
 	<div class="wrapper">
 	</div>
 	<script type="module">
-		import {Pane} from '../node_modules/tweakpane/dist/tweakpane.js';
-		import * as TweakpaneEssentialsPlugin from '../dist/tweakpane-plugin-essentials.js';
+		import {Pane} from '/node_modules/tweakpane/dist/tweakpane.js';
+		import * as TweakpaneEssentialsPlugin from '/public/_assets/js/tweakpane-plugin-essentials-0.2.1.js';
 
 		const params = {
 			interval: {min: 40, max: 60},
